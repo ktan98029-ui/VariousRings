@@ -1,0 +1,93 @@
+
+{
+    "format_version": "1.26.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "variousrings:magic_chest",
+            "menu_category": {
+                "category": "construction"
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 180
+                }
+            }
+        },
+
+        "components": {
+            "minecraft:geometry": "minecraft:geometry.full_block",
+
+            "minecraft:material_instances": {
+                "up": {
+                    "texture": "magic_chest_top",
+                    "render_method": "opaque"
+                },
+                "down": {
+                    "texture": "magic_chest_top",
+                    "render_method": "opaque"
+                },
+                "north": {
+                    "texture": "magic_chest_front",
+                    "render_method": "opaque"
+                },
+                "east": {
+                    "texture": "magic_chest_side",
+                    "render_method": "opaque"
+                },
+                "south": {
+                    "texture": "magic_chest_side",
+                    "render_method": "opaque"
+                },
+                "west": {
+                    "texture": "magic_chest_side",
+                    "render_method": "opaque"
+                }
+            },
+
+            "minecraft:block_entity": {
+                "container": {
+                    "slot_count": 27,
+                    "title": "魔法のチェスト"
+                }
+            }
+        },
+
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [0, 0, 0]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [0, 180, 0]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [0, 90, 0]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [0, 270, 0]
+                    }
+                }
+            }
+        ]
+    }
+}

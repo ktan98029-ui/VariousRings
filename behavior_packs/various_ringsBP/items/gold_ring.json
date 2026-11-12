@@ -1,0 +1,30 @@
+{
+    "format_version": "1.21.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "variousrings:gold_ring",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "§6§l金輝の指輪\n§5効果:低速落下"
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "gold_ring"
+                }
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "variousrings:ring"
+                ]
+            },
+            "minecraft:use_modifiers": {
+                "use_duration": 0
+            },
+            "minecraft:max_stack_size": 1
+        }
+    }
+}

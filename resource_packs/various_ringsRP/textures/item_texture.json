@@ -1,0 +1,34 @@
+
+{
+    "resource_pack_name": "various_rings",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "lapis_ring": {
+            "textures": "textures/items/lapis_ring"
+        },
+        "iron_ring": {
+            "textures": "textures/items/iron_ring"
+        },
+        "gold_ring": {
+            "textures": "textures/items/gold_ring"
+        },
+        "diamond_ring": {
+            "textures": "textures/items/diamond_ring"
+        },
+        "emerald_ring": {
+            "textures": "textures/items/emerald_ring"
+        },
+        "wither_ring": {
+            "textures": "textures/items/wither_ring"
+        },
+        "redstone_ring": {
+            "textures": "textures/items/redstone_ring"
+        },
+        "copper_ring": {
+            "textures": "textures/items/copper_ring"
+        },
+        "artifact_book": {
+            "textures": "textures/items/artifact_book"
+        }
+    }
+}

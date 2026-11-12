@@ -1,0 +1,18 @@
+
+{
+    "format_version": 2,
+    "header": {
+        "name": "Various Rings RP",
+        "description": "様々な指輪のテクスチャを追加します",
+        "uuid": "98bb89e6-0b37-400d-ba65-d8d3febf4053",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 21, 0]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "f50c7d95-3e7d-4e30-b285-714e5aa1a0ef",
+            "version": [1, 0, 0]
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+
+{
+    "format_version": 2,
+    "header": {
+        "name": "Various Rings",
+        "description": "様々な指輪を追加します",
+        "uuid": "af7ef739-f6cd-4628-8f3a-450871d96b02",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 21, 0]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "56a793d6-cb10-41a5-b12c-7f5459d9d7dc",
+            "version": [1, 0, 0]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "594d60fb-42ac-4084-bab6-4d5724f4a8cb",
+            "version": [1, 0, 0],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.0.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.0.0"
+        },
+        {
+            "uuid": "98bb89e6-0b37-400d-ba65-d8d3febf4053",
+            "version": [1, 0, 0]
+        }
+    ]
+}

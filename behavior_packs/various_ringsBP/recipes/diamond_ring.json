@@ -1,0 +1,27 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:recipe_shaped": {
+        "description":{
+            "identifier": "variousrings:diamond_ring"
+        },
+
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "#.#"
+        ],
+        "key":{
+            "#":{
+                "item": "minecraft:iron_ingot"
+            },
+            ".":{
+                "item":"minecraft:diamond_block"
+            }
+        },
+        "unlock": {
+            "context": "AlwaysUnlocked"
+        },
+        "result": {
+            "item": "variousrings:diamond_ring"
+        }
+    }
+}
